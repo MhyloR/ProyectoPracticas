@@ -15,6 +15,7 @@ Identificacion de outliers en la plataforma SIMEME aplicando metodos estadistico
 6. Si todo salio bien en su Terminal debera de aparecer algo tal que : (< Nombre del ambiente >) PS D: ....
 Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado py, en su caso podria aparecer C: u otras letras. (Dado el caso en tener particiones en el disco o tener varios discos en el pc esta letra variara)
  ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/0ed31e9e5c1f4e49cdeac00faa8d9ecd1747111a/image.png)
+
 #### Segundo Metodo
 1. Abrir la consola de VScode
 2. Escribir en consola: python -m venv < Nombre del ambiente virtual >
@@ -22,6 +23,14 @@ Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado
 4. Si todo salio bien deberia de ver esto:
  ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/0ed31e9e5c1f4e49cdeac00faa8d9ecd1747111a/image.png)
 
+## TIP
+Si al activar el ambiente virtual no funciona haz esto:
+1. Identifica la carpeta que se creo con el nombre de tu ambiente
+2. abre la carpeta de Scrips
+3. identifica el archivo Activate.ps1
+4. Copia la ruta de este archivo y copiala en el terminal
+5. Listo
+6. 
 ##### Como eliminar el ambiente virtual
 Simplemente ubique la carpeta dentro de su computador y eliminela o dentro del mismo VScode elimine la carpeta creada.
 
