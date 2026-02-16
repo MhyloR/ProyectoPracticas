@@ -8,6 +8,11 @@ Identificacion de outliers en la plataforma SIMEME aplicando metodos estadistico
 2. En consola instalar: virtualenv (pip install virtualenv)
 %%% La instalacion de esta libreria es opcional, despues se explicara otro metodo para insatalar un ambiente virtual %%%
 3. Consola escribir: virtualenv -p python < Nombre del ambiente >
-4. Con esto seguira la activacion del ambiente, el comando sera: .\ < Nombre del ambiente >\Script\activate
+4. Con esto seguira la activacion del ambiente, el comando sera: .\ < Nombre del ambiente >\Script\activate (Sin espacios)
 5. Si todo salio bien en su Terminal debera de aparecer algo tal que : (< Nombre del ambiente >) PS D: ....
+Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado py, en su caso podria aparecer C: u otras letras. (Dado el caso en tener particiones en el disco o tener varios discos en el pc esta letra variara)
+
 #### Segundo Metodo
+1. Abrir la consola de VScode
+2. Escribir en consola: python -m venv < Nombre del ambiente virtual >
+3. Nuevamente escribir en consola: .\ < Nombre del ambiente virtual >\Scripts\Activate.ps1 (Sin espacios)
