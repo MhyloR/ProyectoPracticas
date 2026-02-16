@@ -7,10 +7,12 @@ Identificacion de outliers en la plataforma SIMEME aplicando metodos estadistico
 #### Primer Metodo
 1. Abrir VScode
 2. En consola instalar: virtualenv (pip install virtualenv)
+
 %%% La instalacion de esta libreria es opcional, despues se explicara otro metodo para insatalar un ambiente virtual %%%
-3. Consola escribir: virtualenv -p python < Nombre del ambiente >
-4. Con esto seguira la activacion del ambiente, el comando sera: .\ < Nombre del ambiente >\Script\activate (Sin espacios)
-5. Si todo salio bien en su Terminal debera de aparecer algo tal que : (< Nombre del ambiente >) PS D: ....
+
+4. Consola escribir: virtualenv -p python < Nombre del ambiente >
+5. Con esto seguira la activacion del ambiente, el comando sera: .\ < Nombre del ambiente >\Script\activate (Sin espacios)
+6. Si todo salio bien en su Terminal debera de aparecer algo tal que : (< Nombre del ambiente >) PS D: ....
 Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado py, en su caso podria aparecer C: u otras letras. (Dado el caso en tener particiones en el disco o tener varios discos en el pc esta letra variara)
  ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/0ed31e9e5c1f4e49cdeac00faa8d9ecd1747111a/image.png)
 #### Segundo Metodo
@@ -22,4 +24,8 @@ Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado
 
 ##### Como eliminar el ambiente virtual
 Simplemente ubique la carpeta dentro de su computador y eliminela o dentro del mismo VScode elimine la carpeta creada.
-###
+
+#### Instalacion de dependencias.
+1. Identifique el archivo requirements.txt (El que se encuentra en estos momentos es temporal)
+2. En su ambiente virtual ejecute el siguiente comando: pip install -r .\requirements.txt
+3. Espere la instalacion.
