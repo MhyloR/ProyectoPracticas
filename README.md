@@ -17,4 +17,5 @@ Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado
 2. Escribir en consola: python -m venv < Nombre del ambiente virtual >
 3. Nuevamente escribir en consola: .\ < Nombre del ambiente virtual >\Scripts\Activate.ps1 (Sin espacios)
 4. Si todo salio bien deberia de ver esto:
- ![Texto descriptivo](imagen.png)
+
+ ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/51a6d8cf871846f9b3d6daa05fb7499407cf2de2/image.png)
