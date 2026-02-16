@@ -16,3 +16,8 @@ Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado
 1. Abrir la consola de VScode
 2. Escribir en consola: python -m venv < Nombre del ambiente virtual >
 3. Nuevamente escribir en consola: .\ < Nombre del ambiente virtual >\Scripts\Activate.ps1 (Sin espacios)
+4. Si todo salio bien deberia de ver esto:
+![Uploading image.png…]()
+![Uploading image.png…]()
+![Uploading image.png…]()
+![Uploading image.png…]()
