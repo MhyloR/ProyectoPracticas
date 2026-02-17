@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 
 #Configuaracion de email
 
-sender_email = "camilorodriguezlondono@gmail.com"
-reciver_email = "carodriguez@xm.com.co"
-password = "ogsg ydhg cmrn pxqd"
+sender_email = " "
+reciver_email = " "
+password = " "
 
 # creamos el contenido del correo
 
