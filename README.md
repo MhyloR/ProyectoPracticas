@@ -30,7 +30,7 @@ Si al activar el ambiente virtual no funciona haz esto:
 3. identifica el archivo Activate.ps1
 4. Copia la ruta de este archivo y copiala en el terminal
 5. Listo
-6. 
+ 
 ##### Como eliminar el ambiente virtual
 Simplemente ubique la carpeta dentro de su computador y eliminela o dentro del mismo VScode elimine la carpeta creada.
 
