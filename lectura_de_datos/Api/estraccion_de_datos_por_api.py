@@ -15,6 +15,3 @@ def get_df(id, fecha_inicio, fecha_final):
 
     df_genreal = simem.main()
     df_genreal.to_csv("archivo.csv")
-
-### EJM ###
-get_df('95443E','2024-09-28','2026-10-28')
