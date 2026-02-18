@@ -75,15 +75,11 @@ def obtener_namecolumns(dataset_id: str, url_template: str, timeout: int = 200) 
 
     return _find_namecolumns(data)
 
-if __name__ == "__main__":
-    dataset_id = "75f675"
-    url_template = "https://www.simem.co/backend-files/api/detalle-datos-publicos?datasetId={dataset_id}"
 
-    try:
-        columnas = obtener_namecolumns(dataset_id, url_template)
-        print("nameColumn encontrados:", columnas)
+##EJEMPLO DE USO###
+#dataset_id = "75f675"
+#url_template = "https://www.simem.co/backend-files/api/detalle-datos-publicos?datasetId={dataset_id}"
 
-        if not columnas:
-            print("No se encontraron 'nameColumn'. Verifica la estructura del JSON del endpoint.")
-    except Exception as e:
-        print("Error:", e)
+
+#columnas = obtener_namecolumns(dataset_id, url_template)
+#print("nameColumn encontrados:", columnas)
