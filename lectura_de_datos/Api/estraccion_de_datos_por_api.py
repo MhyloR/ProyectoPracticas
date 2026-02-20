@@ -144,4 +144,16 @@ def Separacion(columnas, archivo):
     df_atributos = archivo.drop([var_x, var_y], axis=1)
 
     return df_general, df_atributos
+
+
+def guardar_dataframes(**dfs):
+    # Crear carpeta si no existe
+    carpeta = "salida"
+    os.makedirs(carpeta, exist_ok=True)
+
+    for nombre, df in dfs.items():
+        ruta = os.path.join(carpeta, f"{nombre}.csv")
+        df.to_csv(ruta, index=False, encoding="utf-8-sig")
+        print(f"Guardado: {ruta}")
+
         
