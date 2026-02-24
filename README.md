@@ -1,40 +1,71 @@
-# ProyectoPracticas
+# Proyecto de Prácticas
 
-## Descripcion 
-Identificacion de outliers en la plataforma SIMEME aplicando metodos estadisticos y machine learning para observar y comparar su eficiencia, generando una separacion y notificacion al usuario final.
+## Descripción  
+Generar una interfaz gráfica donde el usuario ingrese un *dataset ID* o un archivo plano, y este le permita seleccionar la variable a trabajar con un filtro de atributos.
 
-### Instalacion de Ambiente virtual y dependencias.
-#### Primer Metodo
-1. Abrir VScode
-2. En consola instalar: virtualenv (pip install virtualenv)
+---
 
-%%% La instalacion de esta libreria es opcional, despues se explicara otro metodo para insatalar un ambiente virtual %%%
+## Instalación del ambiente virtual y dependencias
 
-4. Consola escribir: virtualenv -p python < Nombre del ambiente >
-5. Con esto seguira la activacion del ambiente, el comando sera: .\ < Nombre del ambiente >\Script\activate (Sin espacios)
-6. Si todo salio bien en su Terminal debera de aparecer algo tal que : (< Nombre del ambiente >) PS D: ....
-Entienda que en este caso es PS D: debido a que es el lugar donde esta instalado py, en su caso podria aparecer C: u otras letras. (Dado el caso en tener particiones en el disco o tener varios discos en el pc esta letra variara)
- ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/0ed31e9e5c1f4e49cdeac00faa8d9ecd1747111a/image.png)
+### Primer método
+1. Abrir **VS Code**.  
+2. En la consola instalar *virtualenv*:  
+   ```bash
+   pip install virtualenv
+   ```
+   **Nota:** La instalación de esta librería es opcional. Después se explicará otro método para instalar un ambiente virtual.
+3. Crear el ambiente virtual:  
+   ```bash
+   virtualenv -p python <Nombre_del_ambiente>
+   ```
+4. Activar el ambiente virtual:  
+   ```bash
+   .\<Nombre_del_ambiente>\Scripts\activate
+   ```
+5. Si todo salió bien, en la terminal aparecerá algo como:  
+   ```
+   (<Nombre_del_ambiente>) PS D: ...
+   ```
+   La letra del disco puede variar dependiendo de tu instalación o particiones.
 
-#### Segundo Metodo
-1. Abrir la consola de VScode
-2. Escribir en consola: python -m venv < Nombre del ambiente virtual >
-3. Nuevamente escribir en consola: .\ < Nombre del ambiente virtual >\Scripts\Activate.ps1 (Sin espacios)
-4. Si todo salio bien deberia de ver esto:
- ![Imagen alt](https://github.com/MhyloR/ProyectoPracticas/blob/0ed31e9e5c1f4e49cdeac00faa8d9ecd1747111a/image.png)
+---
+
+### Segundo método
+1. Abrir la consola de **VS Code**.  
+2. Crear el ambiente virtual con:  
+   ```bash
+   python -m venv <Nombre_del_ambiente_virtual>
+   ```
+3. Activarlo:  
+   ```bash
+   .\<Nombre_del_ambiente_virtual>\Scripts\Activate.ps1
+   ```
+4. Si la activación fue exitosa, deberías ver algo similar en la terminal.
+
+---
 
 ## TIP
-Si al activar el ambiente virtual no funciona haz esto:
-1. Identifica la carpeta que se creo con el nombre de tu ambiente
-2. abre la carpeta de Scrips
-3. identifica el archivo Activate.ps1
-4. Copia la ruta de este archivo y copiala en el terminal
-5. Listo
- 
-##### Como eliminar el ambiente virtual
-Simplemente ubique la carpeta dentro de su computador y eliminela o dentro del mismo VScode elimine la carpeta creada.
+Si no puedes activar el ambiente virtual:
+1. Ubica la carpeta creada con el nombre de tu ambiente.  
+2. Entra a la carpeta **Scripts**.  
+3. Localiza el archivo **Activate.ps1**.  
+4. Copia su ruta completa.  
+5. Pégala y ejecútala en la terminal.  
+6. ¡Listo!
 
-#### Instalacion de dependencias.
-1. Identifique el archivo requirements.txt (El que se encuentra en estos momentos es temporal)
-2. En su ambiente virtual ejecute el siguiente comando: pip install -r .\requirements.txt
-3. Espere la instalacion.
+---
+
+## Cómo eliminar el ambiente virtual
+Basta con ubicar la carpeta correspondiente al ambiente virtual y eliminarla manualmente desde tu explorador de archivos o desde VS Code.
+
+---
+
+## Instalación de dependencias
+1. Ubica el archivo **requirements.txt** (el actual es temporal).  
+2. En tu ambiente virtual ejecuta:  
+   ```bash
+   pip install -r .\requirements.txt
+   ```
+3. Espera a que termine la instalación.
+
+---
